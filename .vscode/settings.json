@@ -1,0 +1,14 @@
+{
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    // "python.analysis.extraPaths": ["scripts", "/home/Kami/Documents/Github/pandas"] <-- disable unless on Arch 
+    // "python.analysis.extraPaths": ["pandas", "/usr/local/lib/python3.11/site-packages"] <-- disable unless on linux
+    "python.analysis.extraPaths": [
+        "pandas",
+        "C:\\Python311\\Lib\\site-package"
+    ],
+    "python.analysis.typeCheckingMode": "basic" // <-- resolving pylance imports (unused just aesthetics)
+}
